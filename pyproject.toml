@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "agentic rag"
+version = "0.1.0"
+description = "Agentic rag project using langchain, langgraph and huggingface"
+authors = ["Yahya <47945063+muhammadyahiya@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.13"
+langgraph = "^0.2.60"
+langchain-community = "^0.3.12"
+langchain-huggingface = "^0.1.2"
+chromadb = "^0.5.23"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
