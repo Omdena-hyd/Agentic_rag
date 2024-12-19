@@ -12,7 +12,13 @@ langgraph = "^0.2.60"
 langchain-community = "^0.3.12"
 langchain-huggingface = "^0.1.2"
 chromadb = "^0.5.23"
+bs4 = "^0.0.2"
+tiktoken = "^0.8.0"
+transformers ="^4.47.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
